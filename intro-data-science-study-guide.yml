@@ -1,0 +1,44 @@
+# Intro to Data Science Study Guide
+
+UI/UX and user-centered design:
+  Main point: |
+    User should be thinking about the information, not the design. User perceives
+    well-functioning visualization as reflection of quality data and organized
+    company.
+
+  Bridging two gulfs of execution and evaluation (Don Norman):
+    In execution, the user:
+      - plans goal
+      - specifies goal in more detail
+      - performs action on UI intending to reach goal
+    In evaluation, the user:
+      - perceives results
+      - interprets results
+      - compares results with intended goal
+
+  Capturing user preferences:
+    Data collection and analysis:
+      Via:
+        - User surveys
+        - Observing users
+        - Click and navigation data
+      Kansei engineering:
+        Kansei: |
+          "aims at the development or improvement of products and services by
+          translating the customer's psychological feelings and needs into the
+          domain of product design (i.e. parameters)"
+        Consumer affective responses: |
+          CARs are psychological feelings resulting from interaction with product
+          features
+        Product form features: PFFs (or PFs?) are product's design
+  
+    Prototyping:
+      - UML and wireframing for UI flow (software: Visio, Balsamiq)
+      - Spiral lifecycle incrementally involves users in design improvement
+    
+  Check out:
+    - Don Norman, https://youtu.be/bg4UwyPPZ6U
+    - Visio, https://products.office.com/en-us/visio/flowchart-software
+    - Wikipedia, https://en.wikipedia.org/wiki/Kansei_engineering
+        
+#Sheidermans rules
