@@ -1,10 +1,10 @@
 # Introduction to Data Science Study Guide
 
 UI/UX and user-centered design:
-  Main point: |
-    User should be thinking about the information, not the design. User perceives
-    well-functioning visualization as reflection of quality data and organized
-    company.
+  Main idea: |
+    User should be thinking about the information, not the design. User
+    perceives well-functioning visualization as reflection of quality data and
+    organized company.
 
   Bridging two gulfs of execution and evaluation (Don Norman):
     In execution, the user:
@@ -31,8 +31,8 @@ UI/UX and user-centered design:
           domain of product design (i.e. parameters)"
           
         Consumer affective responses: |
-          CARs are psychological feelings resulting from interaction with product
-          features
+          CARs are psychological feelings resulting from interaction with
+          product features
           
         Product form features: PFFs (or PFs?) are product's design
   
@@ -57,31 +57,39 @@ UI/UX and user-centered design:
       of accomplishment.
     
     5 Simple error handling: |
-      so user cannot make serious error. System should detect error and offer simple handling.
+      so user cannot make serious error. System should detect error and offer
+      simple handling.
     
     6 Easy reversal of actions: |
       relieves anxiety, since user knows errors can be undone.
     
     7 Internal locus of control: |
-      supported so user senses they are in charge of system Users are initiators of actions rather than responders.
+      supported so user senses they are in charge of system Users are initiators
+      of actions rather than responders.
     
     8 Short-term memory load: |
-      reduced by designing simple design, consolidating multiple pages, reducing window motion, etc.
+      reduced by designing simple design, consolidating multiple pages, reducing
+      window motion, etc.
   
   Challenges:
     Uncertainty:
       - In data
       In requirements: |
-        User may hide important facts intentionally or unintentionally due to politics, financials, privacy, regulations, etc.
+        User may hide important facts intentionally or unintentionally due to
+        politics, financials, privacy, regulations, etc.
       
     Adoption: |
-      Communication. Get product champions and early adopters supporting dashboard to gain support across organization.
+      Communication. Get product champions and early adopters supporting
+      dashboard to gain support across organization.
     
     Expectations: |
-      Set and be clear about what dashboard will do, how it will function, and when it will be delivered. Constraints due to time, budget.
+      Set and be clear about what dashboard will do, how it will function, and
+      when it will be delivered. Constraints due to time, budget.
       
   Check out:
-    - Two gulfs, https://youtu.be/bg4UwyPPZ6U
-    - Kansei, https://en.wikipedia.org/wiki/Kansei_engineering
-    - Shneiderman, https://faculty.washington.edu/jtenenbg/courses/360/f04/sessions/schneidermanGoldenRules.html
-    - Visio, https://products.office.com/en-us/visio/flowchart-software
+    Two gulfs: https://youtu.be/bg4UwyPPZ6U
+    Kansei: https://en.wikipedia.org/wiki/Kansei_engineering
+    Shneiderman: |
+      https://faculty.washington.edu/jtenenbg/courses/360/f04/sessions
+      /schneidermanGoldenRules.html
+    Visio: https://products.office.com/en-us/visio/flowchart-software
