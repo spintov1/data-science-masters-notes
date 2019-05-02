@@ -1,4 +1,4 @@
-# Intro to Data Science Study Guide
+# Introduction to Data Science Study Guide
 
 UI/UX and user-centered design:
   Main point: |
@@ -11,6 +11,7 @@ UI/UX and user-centered design:
       - plans goal
       - specifies goal in more detail
       - performs action on UI intending to reach goal
+      
     In evaluation, the user:
       - perceives results
       - interprets results
@@ -22,23 +23,65 @@ UI/UX and user-centered design:
         - User surveys
         - Observing users
         - Click and navigation data
+        
       Kansei engineering:
         Kansei: |
           "aims at the development or improvement of products and services by
           translating the customer's psychological feelings and needs into the
           domain of product design (i.e. parameters)"
+          
         Consumer affective responses: |
           CARs are psychological feelings resulting from interaction with product
           features
+          
         Product form features: PFFs (or PFs?) are product's design
   
     Prototyping:
       - UML and wireframing for UI flow (software: Visio, Balsamiq)
       - Spiral lifecycle incrementally involves users in design improvement
+  
+  Shneiderman's eight rules:
+    1 Consistency: |
+      in sequences of actions, identical terminology, and consistent commands.
+  
+    2 Shortcuts: |
+      enable frequent users to reduce the number of interactions. eg
+      abbreviations, function keys, hidden commands, and macro facilities.
     
+    3 Informative feedback: |
+      for every user action. Frequent and minor actions -> response minor;
+      infrequent and major actions -> response major.
+    
+    4 Closure: |
+      created by creating beginning, middle, and end. Gives users satisfaction
+      of accomplishment.
+    
+    5 Simple error handling: |
+      so user cannot make serious error. System should detect error and offer simple handling.
+    
+    6 Easy reversal of actions: |
+      relieves anxiety, since user knows errors can be undone.
+    
+    7 Internal locus of control: |
+      supported so user senses they are in charge of system Users are initiators of actions rather than responders.
+    
+    8 Short-term memory load: |
+      reduced by designing simple design, consolidating multiple pages, reducing window motion, etc.
+  
+  Challenges:
+    Uncertainty:
+      - In data
+      In requirements: |
+        User may hide important facts intentionally or unintentionally due to politics, financials, privacy, regulations, etc.
+      
+    Adoption: |
+      Communication. Get product champions and early adopters supporting dashboard to gain support across organization.
+    
+    Expectations: |
+      Set and be clear about what dashboard will do, how it will function, and when it will be delivered. Constraints due to time, budget.
+      
   Check out:
-    - Don Norman, https://youtu.be/bg4UwyPPZ6U
+    - Two gulfs, https://youtu.be/bg4UwyPPZ6U
+    - Kansei, https://en.wikipedia.org/wiki/Kansei_engineering
+    - Shneiderman, https://faculty.washington.edu/jtenenbg/courses/360/f04/sessions/schneidermanGoldenRules.html
     - Visio, https://products.office.com/en-us/visio/flowchart-software
-    - Wikipedia, https://en.wikipedia.org/wiki/Kansei_engineering
-        
-#Sheidermans rules
