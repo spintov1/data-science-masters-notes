@@ -1,5 +1,51 @@
 # Introduction to Data Science Study Guide
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+Generalization:
+  Main idea: |
+    The task of learning machine making predictions on data it has not seen
+    before. Data divided into training set and testing set. During learning, 
+    bias and variance can occur. Goal is to find sweet spot between variance and
+    bias.
+  
+  Bias: |
+    Difference between expected value and the true value of the predicted
+    parameter.
+    
+  Variance: |
+    How far values are spread out from their average. If model variance is high,
+    relatively small changes in training data will dramatically affect output.
+  
+  Overfitting:
+    Overfitting: |
+      Fitted to every point, ie low bias, high variance, even fitted to noise.
+    
+    Solutions:
+      - Reducing number of features in model.
+      - Regularization methods for constraining the model, like ridge and lasso.
+      - Get more training data.
+      - Reduce noise in training data, eg outliers, errors.
+  
+  Underfitting:
+    Underfitting: |
+      Oversimplification, ignoring too many points, ie high bias, low variance.
+    
+    Solutions:
+      - Selecting a more powerful model with more parameters.
+      - Fitting more features and providing more data as input.
+  
+  Graph: |
+
+    bias
+    ^
+    | .underfit
+    |
+    |
+    |   .robust
+    |             .overfit
+    +---------------> variance
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 UI/UX and user-centered design:
   Main idea: |
     User should be thinking about the information, not the design. User
@@ -93,3 +139,4 @@ UI/UX and user-centered design:
       https://faculty.washington.edu/jtenenbg/courses/360/f04/sessions
       /schneidermanGoldenRules.html
     Visio: https://products.office.com/en-us/visio/flowchart-software
+    
