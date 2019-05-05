@@ -1,7 +1,7 @@
 # Introduction to Data Science Study Guide
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-Generalization:
+Generalization in ML:
   Main idea: |
     The task of learning machine making predictions on data it has not seen
     before. Data divided into training set and testing set. During learning, 
