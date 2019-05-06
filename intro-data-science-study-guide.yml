@@ -1,10 +1,71 @@
-# Introduction to Data Science Study Guide
+# Introduction to Data Science
+# University of Maryland Baltimore COunty
+# Professor: Feras Batarseh
+# Study guide compiled by John Oberlin
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+Data wrangling/pre-processing:
+  Methods:
+    Sampling: |
+      Subset of dataset. Sample selected in manner to allow unbiased
+      representation of dataset.
+  
+    Cleaning: |
+      Addressing formatting, standardization, duplicate, bad or missing data
+      issues. Records with missing data can be dropped or the data point can be
+      "imputed" by, eg, inputting the average for similar records.
+      
+    Normalizing: |
+      Adjusting certain data to be better compared with other data of the same
+      type. For example, some product reviews being value n of 3 stars and others
+      being n of 5 stars. Should be calculated into a normalized value.
+  
+    Filtering: |
+      Selecting subset of dataset for viewing or analysis. Selecting by feature
+      /column filters out records/rows.
+  
+    Reduction: |
+      Removing irrelevant or redundant features, ie columns.
+  
+    Pivoting: |
+      Smaller table that summarizes dataset, possibly with aggregation like sum,
+      average, count, etc.
+  
+    Aggregation: |
+      Values of certain records/rows are grouped together to form one summary
+      value. Functions include sum, average, count, variance, etc.
+
+Data and databases:
+
+  Kinds of data:
+    Quantitative: data that can be measured or counted
+    
+    Categorical: data that can be sorted according to group, type, eg provinces
+    
+    Continuous: data that is measured and whose value falls within a range, eg temperature (could be 1.5 degrees, or 1.45, 1.56, etc)
+    
+    Discrete: data with a finite number of possible values, eg counting humans (cannot have 1.5 humans).
+    
+  Data types:
+    Int/Real: 6, 700, 1099
+    
+    Long Int/Big Int: -2585653900
+    
+    Float/Decimal: 598.12463
+    
+    Boolean: 1, 0, TRUE, FALSE
+    
+    String/Text: Data is awesome!#123
+    
+    VarChar: G5312
+    
+    Date/time: 6/7/2019 07:15:24 pm
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 Generalization in ML:
   Main idea: |
     The task of learning machine making predictions on data it has not seen
-    before. Data divided into training set and testing set. During learning, 
+    before. Data divided into training set and testing set. During learning,
     bias and variance can occur. Goal is to find sweet spot between variance and
     bias.
   
@@ -45,6 +106,48 @@ Generalization in ML:
     |             .overfit
     +---------------> variance
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+Data visualization:
+  Types of outcomes:
+    Trends: Values over time
+    Correlations: Relationship of values of feature A vs feature B
+    Outliers: Values in unusual region
+  
+  Chart/graph types:
+    - bar chart
+    - pie chart
+    - line chart
+    - area chart
+    - scatter plot
+    - bubble chart
+    - heat map
+    - radial chart
+    - flow chart
+    Trees:
+      - binary tree
+      - organizational charts
+      Tree terms: |
+      
+                      (A)
+                       |
+                       |
+        (B)------------+---[edge]---(J)[node]
+                                     |
+                                     |
+                        [leaf](D)----+----(H)[leaf]
+  
+  Chart guidelines:
+    - start y-axis at 0
+    - use consistent colors
+    - order data appropriately (alpha, value, sequence)
+    - use horizontal labels
+    - do not compare multiple pie charts (stacked bar instead)
+    - make sure percentage data sums to 100%
+    - use no more than about four to five categories/lines per chart
+    - use solid lines instead of dashed
+    - label lines directly
+    - lines should consume two-thirds of the y-axis
+    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 UI/UX and user-centered design:
   Main idea: |
