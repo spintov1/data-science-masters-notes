@@ -42,9 +42,13 @@ Data and databases:
     
     Categorical: data that can be sorted according to group, type, eg provinces
     
-    Continuous: data that is measured and whose value falls within a range, eg temperature (could be 1.5 degrees, or 1.45, 1.56, etc)
+    Continuous: |
+      data that is measured and whose value falls within a range, eg temperature
+      (could be 1.5 degrees, or 1.45, 1.56, etc)
     
-    Discrete: data with a finite number of possible values, eg counting humans (cannot have 1.5 humans).
+    Discrete: |
+      data with a finite number of possible values, eg counting humans (cannot
+      have 1.5 humans).
     
   Data types:
     Int/Real: 6, 700, 1099
@@ -95,7 +99,7 @@ Generalization in ML:
       - Selecting a more powerful model with more parameters.
       - Fitting more features and providing more data as input.
   
-  Graph: |
+  Relation: |
 
     bias
     ^
@@ -103,8 +107,8 @@ Generalization in ML:
     |
     |
     |   .robust
-    |             .overfit
-    +---------------> variance
+    |           .overfit
+    +--------------> variance
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 Data visualization:
@@ -113,6 +117,12 @@ Data visualization:
     Correlations: Relationship of values of feature A vs feature B
     Outliers: Values in unusual region
   
+  Visual analytics lifecycle:
+    Data after transformation informs knowledge via:
+      - Visualization after mapping and user interaction
+      - Models after data mining and parameter refinement
+    - Knowledge is feedback to data
+      
   Chart/graph types:
     - bar chart
     - pie chart
@@ -122,7 +132,7 @@ Data visualization:
     - bubble chart
     - heat map
     - radial chart
-    - flow chart
+    
     Trees:
       - binary tree
       - organizational charts
@@ -135,6 +145,31 @@ Data visualization:
                                      |
                                      |
                         [leaf](D)----+----(H)[leaf]
+    
+    Networks/graphs:
+      Can be:
+        - directed, where edges show some kind of directional flow
+        - undirected
+        
+      Can show:
+        - key actors
+        - structural properties
+        - relationship strength
+        - communities
+        - diffusion patterns
+      
+      By using controls:
+        - color
+        - position
+        - size
+        - shape
+        
+      Layouts:
+        - circular
+        - sphere
+        - plot
+        - central (one to all)
+        - random
   
   Chart guidelines:
     - start y-axis at 0
@@ -147,7 +182,42 @@ Data visualization:
     - use solid lines instead of dashed
     - label lines directly
     - lines should consume two-thirds of the y-axis
+    - uniform edge length and minimize crossings/overlaps (networks)
     
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+Understanding users:
+  User personas:
+    - motivations
+    - goals
+    - frustrations
+    - personality
+    - tech literacy
+    User control level:
+      Beginner: How does it do? Where do I start?
+      Intermediate: Remind me how to..., More features?
+      Expert: Shortcuts? Automate? Customize?
+  
+  User classes: based on user's role in organization
+  
+  Product champion: |
+    user who sees value in product, encourages others to get on board
+  
+  Ethnographic observation:
+    ethnography: |
+      scientific description of customs of individual peoples and cultures
+    
+    Methods:
+      - observation
+      - interviews
+      - surveys
+      - regulations
+      - log analysis
+      - cognitive analysis
+      - task analysis
+      - expert walkthrough
+  
+  Contextual inquiry: !!STOPPED HERE!! -JO
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 UI/UX and user-centered design:
   Main idea: |
@@ -155,6 +225,12 @@ UI/UX and user-centered design:
     perceives well-functioning visualization as reflection of quality data and
     organized company.
 
+  Design approaches:
+    Inside-out: |
+      Develop story, collect data, and then add viz
+    Outside-in: |
+      Develop viz, collect data, and build story to support it
+      
   Bridging two gulfs of execution and evaluation (Don Norman):
     In execution, the user:
       - plans goal
@@ -242,4 +318,3 @@ UI/UX and user-centered design:
       https://faculty.washington.edu/jtenenbg/courses/360/f04/sessions
       /schneidermanGoldenRules.html
     Visio: https://products.office.com/en-us/visio/flowchart-software
-    
